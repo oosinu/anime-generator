@@ -1,0 +1,28 @@
+
+{
+  "default_provider": "doubao",
+  "providers": {
+    "alibaba": {
+      "model": "wanx-v1",
+      "api_key": "YourAPIKey", 
+      "api_base": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis",
+      "dimensions": {
+        "3:4": "768*1152",
+        "9:16": "720*1280",
+        "16:9": "1280*720",
+        "1:1": "1024*1024"
+      }
+    },
+    "doubao": {
+      "model": "doubao-seedream-4-0-250828",
+      "api_key": "YourAPIKey",
+      "api_base": "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+      "dimensions": {
+        "3:4": "768x1024",
+        "4:3": "1024x768",
+        "16:9": "1280x720",
+        "1:1": "1024x1024"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/python*/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Output
+anime/
+output/
+*.pdf
+*.png
+*.jpg
+
+# Config
+config_local.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
