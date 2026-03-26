@@ -86,10 +86,4 @@ python utils/pdf_merge.py anime/slug/images-ch1 anime/slug/output.pdf
 - 豆包 API key 自动从 OpenClaw 配置读取
 - 阿里 API key 直接配置在 `config.json`
 
-## 作者
 
-本地私有 skill，不公开。
-
-## 许可证
-
-私有
